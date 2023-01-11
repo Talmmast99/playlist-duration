@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+#part1 {
+  height: 5rem;
+  background-color: white;
+  padding: 20px 120px;
+}
+#part1 form {
+  display: grid;
+  grid-template-columns: 3fr 0.5fr;
+}
+#part1 form input {
+  height: 45px;
+  border: 1px solid #ddd;
+}
+#part1 form input[type=text] {
+  padding-left: 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  outline: none;
+  font-size: 16px;
+  font-weight: normal;
+}
+#part1 form input[type=submit] {
+  background-color: rgb(92, 168, 255);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-weight: 550;
+  transition: 0.5s;
+}
+#part1 form input[type=submit]:hover {
+  background-color: rgb(75, 150, 235);
+}
+
+#part2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: calc(100vh - 5rem);
+}
+#part2 > div {
+  padding: 50px 0px;
+  height: 100%;
+}
+#part2 > div.operation-duration {
+  padding: 30px 20px 0px 60px;
+}
+#part2 > div.operation-duration .operation-duration-part1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 50px;
+}
+#part2 > div.operation-duration .operation-duration-part1 > div {
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+}
+#part2 > div.operation-duration .operation-duration-part1 > div span {
+  display: block;
+}
+#part2 > div.operation-duration .operation-duration-part1 > div span:nth-child(1) {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: rgb(16, 87, 173);
+}
+#part2 > div.operation-duration .operation-duration-part2 {
+  padding: 30px 10px;
+  grid-gap: 20px;
+  border-radius: 10px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 0.5fr 3fr 0.5fr;
+  align-items: center;
+}
+#part2 > div.operation-duration .operation-duration-part2 .link {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+#part2 > div.operation-duration .operation-duration-part2 .link i {
+  color: white;
+  font-size: 25px;
+  margin-left: 5px;
+}
+#part2 > div.operation-channel {
+  padding: 30px 60px 0px 20px;
+  border-left: 1px solid rgb(225, 225, 225);
+}
+#part2 > div.operation-channel > div {
+  border-bottom: 1px solid rgb(225, 225, 225);
+  padding: 20px 0px;
+}
+#part2 > div.operation-channel .operation-channel-part1 {
+  display: flex;
+  grid-gap: 10px;
+  align-items: center;
+}
+#part2 > div.operation-channel .operation-channel-part1 h2 {
+  font-size: 16px;
+}
+#part2 > div.operation-channel .operation-channel-part1 a {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: lowercase;
+  border-radius: 3px;
+}
+#part2 > div.operation-channel .operation-channel-part1 img {
+  border-radius: 100%;
+}
+#part2 > div.operation-channel .operation-channel-part3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  border-bottom: 1px solid rgb(225, 225, 225);
+}
+#part2 > div.operation-channel .keywords {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 10px;
+}
+#part2 > div.operation-channel .keywords div {
+  padding: 15px 20px;
+  background-color: white;
+  border-radius: 30px;
+}/*# sourceMappingURL=index.css.map */
