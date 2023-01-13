@@ -10,7 +10,7 @@ app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-api_key = 'AIzaSyCbMSbgp_OAt41yvoqk6ARyCkfsMBv1bak'
+api_key = 'xxxxxx API_KEY'
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 ## url for test
